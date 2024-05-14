@@ -1,0 +1,19 @@
+.title{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0px 30px;
+}
+.title h2{
+font-size: 18px;
+font-weight: 600;
+color: rgb(8, 53, 121);
+margin-top: 5px;
+}
+.title p{
+    font-size: 38px;
+    font-weight: 600;
+    
+    margin-top: 5px;
+    }

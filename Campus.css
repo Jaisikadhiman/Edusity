@@ -1,0 +1,33 @@
+.campus{
+    margin: 80px auto;
+    width: 70%;
+  text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 40px;
+}
+.images img{
+    
+    width: 22%;
+    border-radius: 10px;
+ 
+}
+.campus .button{
+    background-color: rgb(10, 48, 172);
+    color: white;
+}
+@media(max-width:450px){
+    .images{
+        flex-direction: column;
+    }
+    .images img{
+    
+        width: 65%;
+        margin: 15px;
+        border-radius: 10px;
+     
+    }
+}
